@@ -271,7 +271,7 @@ function renderPdfCards(turno, curso, materias){
     link.className = "option-card pdf-card";
 
     const archivo =
-      `pdf/${turno}/${slugify(curso)}/materia${index+1}.pdf`;
+       `${turno}/${slugify(curso)}/materia${index+1}.pdf`;
 
     link.href = archivo;
 
